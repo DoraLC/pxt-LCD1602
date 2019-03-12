@@ -2,28 +2,17 @@
 
 makecode I2C LCD1602 package for micro:bit  
 
-Author: shaoziyang  
-Date:   2018.Mar  
-  
 ![](lcd.jpg)
-
-## Add extension
-
-open your microbit makecode project, in Extension, paste  
-
-https://github.com/makecode-packages/i2cLCD1602  
-
-to search box then search.
 
 ## Basic usage
 
 ```
 let item = 0
-I2C_LCD1602.LcdInit(0)
-I2C_LCD1602.ShowString("Hello", 0, 0)
+LCD1602.LcdInit(0)
+LCD1602.ShowString("Hello", 0, 0)
 basic.forever(() => {
     item += 1
-    I2C_LCD1602.ShowNumber(item, 0, 1)
+    LCD1602.ShowNumber(item, 0, 1)
     basic.pause(1000)
 })
 ```
@@ -83,6 +72,7 @@ shift right screen
 MIT
 
 Copyright (c) 2018, microbit/micropython Chinese community  
+Modified by DoraLC
 
 ## Supported targets
 
