@@ -42,25 +42,16 @@ x: is LCD column position, [0 - 15]
 y: is LCD row position, [0 - 1]  
 
 - on()  
-turn on LCD  
-
-- off()  
-turn off LCD  
+turn on/off LCD   
 
 - clear()  
 clear LCD content  
 
 - BacklightOn()  
-turn on LCD backlight  
-
-- BacklightOff()  
-turn off LCD backlight  
+turn on/off LCD backlight  
 
 - shl()
-shift left screen
-
-- shr()
-shift right screen
+shift left/right screen
 
 
 ## Demo
