@@ -7,17 +7,18 @@
 /**
  * Modified by DoraLC
  */
+
 //% weight=20 color=#0fbc11 icon="▀"
 namespace LCD1602 {
 
-    enum on_off_switch {
+    export enum on_off_switch {
         //%block="On"
         on,
         //%block="Off"
         off
     }
 
-    enum I2C_addr {
+    export enum I2C_addr {
         //% block="default"
         default = 0x00,
         //% block="0x27"
