@@ -87,7 +87,8 @@ Copyright (c) 2018, microbit/micropython Chinese community
 ## Supported targets
 
 * for PXT/microbit
-```Github:DoraLC/pxt-LCD1602
+```
+Github:DoraLC/pxt-LCD1602
 ```
 
 [From microbit/micropython Chinese community](http://www.micropython.org.cn)
