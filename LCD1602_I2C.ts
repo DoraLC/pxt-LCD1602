@@ -20,7 +20,7 @@ namespace LCD1602 {
 
     export enum I2C_addr {
         //% block="default"
-        default = 0x00,
+        default = 0,
         //% block="0x27"
         addr1 = 0x27,
         //% block="0x3f"
