@@ -56,7 +56,7 @@ shift left/right screen
 
 ## Demo
 
-![](demo.jpg)
+![](demo.png)
 
 ## License
 
@@ -71,5 +71,3 @@ Modified by DoraLC
 ```
 Github:DoraLC/pxt-LCD1602
 ```
-
-[From microbit/micropython Chinese community](http://www.micropython.org.cn)
