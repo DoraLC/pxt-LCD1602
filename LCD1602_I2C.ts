@@ -193,7 +193,7 @@ namespace LCD1602 {
     //% weight=71 blockGap=8
     //% parts=LCD1602_I2C trackArgs=0
     export function BacklightOn(Lswitch: on_off_switch): void {
-        if (Lswitch == 1){
+        if (Lswitch == 0){
             BK = 8
         }
         else {
